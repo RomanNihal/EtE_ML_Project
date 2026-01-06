@@ -1,1 +1,2 @@
 1. Create project template by executing template.py file
+2. Write the code on setup.py and pyproject.toml file to import local packages
