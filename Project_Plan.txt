@@ -1,2 +1,13 @@
 1. Create project template by executing template.py file
 2. Write the code on setup.py and pyproject.toml file to import local packages
+
+3. Sign up to MongoDB Atlas and create a new project by just providing it a name then next next create.
+4. From "create a cluster" screen, hit "create", Select M0 service keeping other services as default, hit "create deployment"
+5. Setup the username and password and then create DB user.
+6. Go to "database & network access", then "ip access list" and add ip address - "0.0.0.0/0" so that we can access it from anywhere
+7. Go back to project >> "get connection string" >> {Driver:Python, Version:4.7 or later} 
+   >> copy and save the connection string (replace password). >> Done.
+
+8. Create folder "dataset" >> add data >>  create file "mongoDB_demo.ipynb" >> select kernal>python kernal>ete-ml-project>>
+9. Push data to mongoDB database from python notebook.
+10. Go to mongoDB Atlas >> project overview >> browse collection >> see data in key value format
