@@ -11,3 +11,5 @@
 8. Create folder "dataset" >> add data >>  create file "mongoDB_demo.ipynb" >> select kernal>python kernal>ete-ml-project>>
 9. Push data to mongoDB database from python notebook.
 10. Go to mongoDB Atlas >> project overview >> browse collection >> see data in key value format
+
+11. Write the logger file and test it on test.py
