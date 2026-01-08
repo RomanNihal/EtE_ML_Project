@@ -6,3 +6,17 @@
 # logging.warning("This is a warning message.")
 # logging.error("This is an error message.")
 # logging.critical("This is a critical message.")
+
+
+
+
+
+# # below code is to check the exception config
+# from src.logger import logging
+# from src.exception import MyException
+
+# try:
+#     a = 1+'Z' # type: ignore
+# except Exception as e:
+#     logging.info(e)
+#     raise MyException(e) from e
