@@ -14,3 +14,5 @@
 
 11. Write the logger file and test it on test.py
 12. Write the exception file and test it on test.py
+
+13. Experiment with the data
